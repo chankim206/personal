@@ -1,0 +1,16 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --resursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Young-Chan Kim",
+  "license": "MIT"
+}
